@@ -20,6 +20,7 @@ public class backgroundSteps {
 		System.setProperty("webdriver.chrome.driver", "C:\\\\Shobana\\\\Cucumber Setup\\\\chromedriver_win32\\\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get("https://www.facebook.com/");
+		System.out.println("Checking second commit");
 		Thread.sleep(1000);
 	}
 	
