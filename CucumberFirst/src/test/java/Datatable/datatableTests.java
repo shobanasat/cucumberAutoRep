@@ -15,7 +15,7 @@ import io.cucumber.junit.CucumberOptions;
 		glue= {"Datatable"},
 	
 plugin= {"pretty",
-		"html:target/cucumber-htmlreport",
+		"html:target/datatable-cucumber-htmlreport",
 		"json:target/cucumber-report.json",
 }
 )

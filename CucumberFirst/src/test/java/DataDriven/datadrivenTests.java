@@ -15,7 +15,7 @@ import io.cucumber.junit.CucumberOptions;
 		glue= {"DataDriven"},
 	
 plugin= {"pretty",
-		"html:target/cucumber-htmlreport",
+		"html:target/datadriven-cucumber-htmlreport",
 		"json:target/cucumber-report.json",
 }
 )

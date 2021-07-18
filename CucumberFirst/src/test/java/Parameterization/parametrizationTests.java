@@ -15,7 +15,7 @@ import io.cucumber.junit.CucumberOptions;
 		glue= {"Parameterization"},
 	
 plugin= {"pretty",
-		"html:target/cucumber-htmlreport",
+		"html:target/parameterization-cucumber-htmlreport",
 		"json:target/cucumber-report.json",
 }
 )

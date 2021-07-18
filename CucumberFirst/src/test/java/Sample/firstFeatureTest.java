@@ -9,13 +9,13 @@ import io.cucumber.core.cli.Main;
 @CucumberOptions(
 		
 		monochrome=true,
-		dryRun=true,
+		//dryRun=true,
 		
 		features= {"src/test/resources/Sample/"},
 		glue= {"Sample"},
 	
 plugin= {"pretty",
-		"html:target/cucumber-htmlreport",
+		"html:target/sample-cucumber-htmlreport",
 		"json:target/cucumber-report.json",
 }
 )

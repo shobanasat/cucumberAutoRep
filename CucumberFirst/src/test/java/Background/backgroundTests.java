@@ -15,7 +15,7 @@ import io.cucumber.junit.CucumberOptions;
 		glue= {"Background"},
 	
 plugin= {"pretty",
-		"html:target/cucumber-htmlreport",
+		"html:target/background-cucumber-htmlreport",
 		"json:target/cucumber-report.json",
 }
 )
